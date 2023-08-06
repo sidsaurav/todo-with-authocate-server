@@ -1,0 +1,101 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    margin-top: 45px;
+    padding: 20px;
+    border: 1px solid blue;
+    width: 400px;
+    height: 600px;
+    background-color: darkturquoise;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blueviolet;
+    background-color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    min-height: 30px;
+    border: 2px solid black;
+}
+
+.heading {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid blue;
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: blue;
+    color: white;
+}
+
+.welcome {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    font-size: 25px;
+    padding-left: 10px;
+    color: brown;
+    font-weight: 500;
+}
+
+.input-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+#inp {
+    width: 70%;
+    font-size: 20px;
+}
+
+.list-items {
+    margin-top: 40px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style-type: none;
+    font-size: 24px;
+}
+
+.del-btn {
+    margin-right: 20px;
+    background-color: red;
+    color: white;
+    font-size: 17px;
+    border: none;
+}
+
+.del-btn:hover {
+    background-color: white;
+    color: red;
+    cursor: pointer;
+}
